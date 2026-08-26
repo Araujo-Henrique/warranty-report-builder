@@ -1,0 +1,16 @@
+# Ambiente virtual (recriável via requirements.txt)
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Artefatos de build do PyInstaller (recriáveis via pyinstaller WarrantyReportBuilder.spec)
+build/
+dist/
+
+# Configurações locais de IDE
+.vscode/
+
+# Lixo do Windows Explorer
+Thumbs.db
