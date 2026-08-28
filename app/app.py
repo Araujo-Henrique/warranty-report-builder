@@ -33,7 +33,7 @@ _configure_tcl_tk()
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
-import report_engine as engine
+import motor_principal.report_engine as engine
 
 WINDOW_TITLE = "Warranty Report Builder"
 
