@@ -4,14 +4,14 @@ Aplicativo desktop (Windows) que converte uma planilha de chamados de garantia e
 
 ## Como usar
 
-1. Abra 'WarrantyReportBuilder.exe'.
-2. Clique em **Enviar arquivo** e selecione a planilha 'xlsx' com os chamados de garantia.
-3. O app gera um 'Warranty Report.docx' com um bloco formatado por chamado.
+1. Abra `WarrantyReportBuilder.exe`.
+2. Clique em **Enviar arquivo** e selecione a planilha `xlsx` com os chamados de garantia.
+3. O app gera um `Warranty Report.docx` com um bloco formatado por chamado.
 4. Clique em **Fazer download** e escolha onde salvar o relatório.
 
 ## Formato esperado da planilha
 
-A planilha '.xlsx' DEVE conter estas colunas na primeira linha:
+A planilha `.xlsx` DEVE conter estas colunas na primeira linha:
 
 - `ID CHAMADO`
 - `CODIGO CLIENTE`
@@ -23,6 +23,7 @@ A planilha '.xlsx' DEVE conter estas colunas na primeira linha:
 
 ## Estrutura do projeto
 
+```
 warranty_app/
 ├── app.py                      # Interface gráfica (tkinter)
 ├── report_engine.py            # Lógica de leitura da planilha e geração do relatório
@@ -34,8 +35,9 @@ warranty_app/
 ├── requirements.txt            # Dependências de runtime
 ├── requirements-dev.txt        # Dependências de build (inclui pyinstaller)
 └── dist/                       # Executável gerado (após o build)
+```
 
-A planilha Warranty 2026_anonimizado.xlsx segue a estrutura de colunas esperada pelo app e serve como exemplo para testes locais, com dados anonimizados.
+A planilha `Warranty 2026_anonimizado.xlsx` segue a estrutura de colunas esperada pelo app e serve como exemplo para testes locais, com dados anonimizados.
 
 ## Stack
 
