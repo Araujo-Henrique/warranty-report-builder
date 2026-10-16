@@ -2,8 +2,8 @@
 
 
 a = Analysis(
-    ['app.py'],
-    pathex=[],
+    ['app/app.py'],
+    pathex=['.'],
     binaries=[],
     datas=[('assets', 'assets'), ('_tcl_data', '_tcl_data'), ('_tk_data', '_tk_data')],
     hiddenimports=[],
